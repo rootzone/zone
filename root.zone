@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020200 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020201 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -1546,10 +1546,10 @@ bbc.                	172800	IN	NS	dnsc.nic.bbc.
 bbc.                	172800	IN	NS	dnsd.nic.bbc.
 bbc.                	86400	IN	DS	10550 8 2 A5006C3437CE92E184D0E45AD5E31C35FFC69353AEFEC0926B78D04A6D3C99BD
 bbc.                	86400	IN	NSEC	bbt. NS DS RRSIG NSEC
-dns1.nic.bbc.       	172800	IN	A	213.248.217.4
-dns1.nic.bbc.       	172800	IN	AAAA	2a01:618:401::4
-dns2.nic.bbc.       	172800	IN	A	103.49.81.4
-dns2.nic.bbc.       	172800	IN	AAAA	2401:fd80:401::4
+dns1.nic.bbc.       	172800	IN	A	213.248.219.4
+dns1.nic.bbc.       	172800	IN	AAAA	2a01:618:403::4
+dns2.nic.bbc.       	172800	IN	A	103.49.83.4
+dns2.nic.bbc.       	172800	IN	AAAA	2401:fd80:403::4
 dns3.nic.bbc.       	172800	IN	A	213.248.221.4
 dns3.nic.bbc.       	172800	IN	AAAA	2a01:618:405::4
 dns4.nic.bbc.       	172800	IN	A	43.230.49.4
@@ -19580,4 +19580,4 @@ zw.                 	172800	IN	NS	ns2.telone.co.zw.
 zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020200 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020201 1800 900 604800 86400
