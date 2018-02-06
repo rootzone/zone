@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020600 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020601 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -14894,7 +14894,7 @@ spiegel.            	172800	IN	NS	ns1a.ksregistry.net.
 spiegel.            	172800	IN	NS	ns1b.ksregistry.net.
 spiegel.            	172800	IN	NS	ns2a.ksregistry.com.
 spiegel.            	172800	IN	NS	ns2b.ksregistry.com.
-spiegel.            	86400	IN	DS	19061 8 2 11F0FE96DFC57F6B1048D0D7D5ED18830818463EAFB549259C586F9E9822FA7F
+spiegel.            	86400	IN	DS	55552 8 2 924AAC7FB7D596CA81093F57744F81D2F2E197FD5551275CBA17F5E2633D9148
 spiegel.            	86400	IN	NSEC	sport. NS DS RRSIG NSEC
 sport.              	172800	IN	NS	anycast9.irondns.net.
 sport.              	172800	IN	NS	anycast10.irondns.net.
@@ -15663,10 +15663,10 @@ dns1.nic.telecity.  	172800	IN	A	213.248.219.8
 dns1.nic.telecity.  	172800	IN	AAAA	2a01:618:403::8
 dns2.nic.telecity.  	172800	IN	A	103.49.83.8
 dns2.nic.telecity.  	172800	IN	AAAA	2401:fd80:403::8
-dns3.nic.telecity.  	172800	IN	A	213.248.221.8
-dns3.nic.telecity.  	172800	IN	AAAA	2a01:618:405::8
-dns4.nic.telecity.  	172800	IN	A	43.230.49.8
-dns4.nic.telecity.  	172800	IN	AAAA	2401:fd80:405::8
+dns3.nic.telecity.  	172800	IN	A	213.248.223.8
+dns3.nic.telecity.  	172800	IN	AAAA	2a01:618:407::8
+dns4.nic.telecity.  	172800	IN	A	43.230.51.8
+dns4.nic.telecity.  	172800	IN	AAAA	2401:fd80:407::8
 dnsa.nic.telecity.  	172800	IN	A	156.154.100.3
 dnsa.nic.telecity.  	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.telecity.  	172800	IN	A	156.154.101.3
@@ -16276,7 +16276,7 @@ tui.                	172800	IN	NS	ns1a.ksregistry.net.
 tui.                	172800	IN	NS	ns1b.ksregistry.net.
 tui.                	172800	IN	NS	ns2a.ksregistry.com.
 tui.                	172800	IN	NS	ns2b.ksregistry.com.
-tui.                	86400	IN	DS	64412 8 2 450AA92E6EB46732EAA1ACB52E5D58DB29D64CCA31A4FB9CE8F9EE74814857B7
+tui.                	86400	IN	DS	23290 8 2 D53C138EAD14027D6192DFB0C2CD0B7CFF36986E47FE680D8B05F84AC78D633B
 tui.                	86400	IN	NSEC	tunes. NS DS RRSIG NSEC
 tunes.              	172800	IN	NS	ns1.dns.nic.tunes.
 tunes.              	172800	IN	NS	ns2.dns.nic.tunes.
@@ -19564,7 +19564,7 @@ zuerich.            	172800	IN	NS	ns1a.ksregistry.net.
 zuerich.            	172800	IN	NS	ns1b.ksregistry.net.
 zuerich.            	172800	IN	NS	ns2a.ksregistry.com.
 zuerich.            	172800	IN	NS	ns2b.ksregistry.com.
-zuerich.            	86400	IN	DS	49169 8 2 E237134264424F02D5A366FF236D8E38D096787E31E4EA3A6913FE1422F0E7AF
+zuerich.            	86400	IN	DS	52375 8 2 E3EBD91BBF29BE88D075C43AC313A9DB174267E858061316EC4C942728A3829E
 zuerich.            	86400	IN	NSEC	zw. NS DS RRSIG NSEC
 zw.                 	172800	IN	NS	ns1.telone.co.zw.
 zw.                 	172800	IN	NS	ns1.liquidtelecom.net.
@@ -19573,4 +19573,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020600 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020601 1800 900 604800 86400
