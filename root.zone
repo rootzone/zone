@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020900 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020901 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -1554,10 +1554,10 @@ dns1.nic.bbc.       	172800	IN	A	213.248.219.4
 dns1.nic.bbc.       	172800	IN	AAAA	2a01:618:403::4
 dns2.nic.bbc.       	172800	IN	A	103.49.83.4
 dns2.nic.bbc.       	172800	IN	AAAA	2401:fd80:403::4
-dns3.nic.bbc.       	172800	IN	A	213.248.221.4
-dns3.nic.bbc.       	172800	IN	AAAA	2a01:618:405::4
-dns4.nic.bbc.       	172800	IN	A	43.230.49.4
-dns4.nic.bbc.       	172800	IN	AAAA	2401:fd80:405::4
+dns3.nic.bbc.       	172800	IN	A	213.248.223.4
+dns3.nic.bbc.       	172800	IN	AAAA	2a01:618:407::4
+dns4.nic.bbc.       	172800	IN	A	43.230.51.4
+dns4.nic.bbc.       	172800	IN	AAAA	2401:fd80:407::4
 dnsa.nic.bbc.       	172800	IN	A	156.154.100.3
 dnsa.nic.bbc.       	172800	IN	AAAA	2001:502:ad09::3
 dnsb.nic.bbc.       	172800	IN	A	156.154.101.3
@@ -13767,7 +13767,7 @@ saarland.           	172800	IN	NS	ns1a.ksregistry.net.
 saarland.           	172800	IN	NS	ns1b.ksregistry.net.
 saarland.           	172800	IN	NS	ns2a.ksregistry.com.
 saarland.           	172800	IN	NS	ns2b.ksregistry.com.
-saarland.           	86400	IN	DS	52754 8 2 F37723E9977B901F5918DC3D002BDDF17E3546DC5F25125CB2C7CAB851F96AB1
+saarland.           	86400	IN	DS	7844 8 2 DFE5F176F88838E618AA262E829EC782074A1440A0AC6D7FDAA2015D6DEDE1E7
 saarland.           	86400	IN	NSEC	safe. NS DS RRSIG NSEC
 safe.               	172800	IN	NS	ns1.dns.nic.safe.
 safe.               	172800	IN	NS	ns2.dns.nic.safe.
@@ -19584,4 +19584,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020900 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018020901 1800 900 604800 86400
