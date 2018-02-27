@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018022700 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018022702 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -972,7 +972,6 @@ at.                 	172800	IN	NS	ns1.univie.ac.at.
 at.                 	172800	IN	NS	ns2.univie.ac.at.
 at.                 	172800	IN	NS	ns9.univie.ac.at.
 at.                 	86400	IN	DS	26039 8 2 1DD90F83BAA0F07FE4DBC286D3DEE84A96BC7C14959908FA61B0D0CAC322BB79
-at.                 	86400	IN	DS	39829 8 2 8B386B7B7F78DBD657F6F82CC091B93E70B68102E187CF535B9771A4A9581190
 at.                 	86400	IN	DS	56489 8 2 2E48D4AAE2F5D5022F156516846803A58F3B2F8A854AAD238EC766DE6AD98AF2
 at.                 	86400	IN	NSEC	athleta. NS DS RRSIG NSEC
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
@@ -993,7 +992,8 @@ n.ns.at.            	172800	IN	A	81.91.173.130
 n.ns.at.            	172800	IN	AAAA	2a02:568:281::130
 r.ns.at.            	172800	IN	A	194.0.25.10
 r.ns.at.            	172800	IN	AAAA	2001:678:20::10
-u.ns.at.            	172800	IN	A	195.66.241.82
+u.ns.at.            	172800	IN	A	185.102.12.2
+u.ns.at.            	172800	IN	AAAA	2a02:850:ffff::2
 athleta.            	172800	IN	NS	ns1.dns.nic.athleta.
 athleta.            	172800	IN	NS	ns2.dns.nic.athleta.
 athleta.            	172800	IN	NS	ns3.dns.nic.athleta.
@@ -14755,20 +14755,20 @@ dns.intelcom.sm.    	172800	IN	A	194.183.64.11
 dns.omniway.sm.     	172800	IN	A	194.183.64.10
 ns3.telecomitalia.sm.	172800	IN	A	194.0.27.12
 ns3.telecomitalia.sm.	172800	IN	AAAA	2001:678:28:0:c2:b7:40:12
-smart.              	172800	IN	NS	apdns1.nic.smart.
-smart.              	172800	IN	NS	apdns2.nic.smart.
+smart.              	172800	IN	NS	c.nic.smart.
+smart.              	172800	IN	NS	d.nic.smart.
 smart.              	172800	IN	NS	apdns3.nic.smart.
 smart.              	172800	IN	NS	apdns4.nic.smart.
 smart.              	86400	IN	DS	10241 8 2 1FC272FD0BB0D9AE922348C5C63F401A9E1FBA71C8CB452AF5DF5E4E005237CF
 smart.              	86400	IN	NSEC	smile. NS DS RRSIG NSEC
-apdns1.nic.smart.   	172800	IN	A	203.87.166.126
-apdns1.nic.smart.   	172800	IN	AAAA	2407:9800:4000:4e01::17
-apdns2.nic.smart.   	172800	IN	A	203.87.166.125
-apdns2.nic.smart.   	172800	IN	AAAA	2407:9800:4000:4e01::18
 apdns3.nic.smart.   	172800	IN	A	194.169.218.70
 apdns3.nic.smart.   	172800	IN	AAAA	2001:67c:13cc::1:70
 apdns4.nic.smart.   	172800	IN	A	185.24.64.70
 apdns4.nic.smart.   	172800	IN	AAAA	2a04:2b00:13cc::1:70
+c.nic.smart.        	172800	IN	A	212.18.248.70
+c.nic.smart.        	172800	IN	AAAA	2a04:2b00:13ee::70
+d.nic.smart.        	172800	IN	A	212.18.249.70
+d.nic.smart.        	172800	IN	AAAA	2a04:2b00:13ff::70
 smile.              	172800	IN	NS	ns1.dns.nic.smile.
 smile.              	172800	IN	NS	ns2.dns.nic.smile.
 smile.              	172800	IN	NS	ns3.dns.nic.smile.
@@ -19607,4 +19607,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018022700 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018022702 1800 900 604800 86400
