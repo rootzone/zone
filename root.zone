@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030100 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030101 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -18291,7 +18291,6 @@ xn--fiqz9s.         	172800	IN	NS	l.dns.cn.
 xn--fiqz9s.         	172800	IN	NS	m.dns.cn.
 xn--fiqz9s.         	172800	IN	NS	n.dns.cn.
 xn--fiqz9s.         	86400	IN	DS	28162 8 2 30B55F108E07F9C2397F0D233324E02E667A137569FF91FC0311DCB73CEA1571
-xn--fiqz9s.         	86400	IN	DS	37861 8 2 EC185F792DA58FFD36A25BE0E89015D649CF2C5369A7C67B484175FAC53C415F
 xn--fiqz9s.         	86400	IN	NSEC	xn--fjq720a. NS DS RRSIG NSEC
 xn--fjq720a.        	172800	IN	NS	demand.beta.aridns.net.au.
 xn--fjq720a.        	172800	IN	NS	demand.alpha.aridns.net.au.
@@ -18627,12 +18626,12 @@ b0.nic.xn--kput3i.  	172800	IN	A	65.22.217.1
 b0.nic.xn--kput3i.  	172800	IN	AAAA	2a01:8840:d3::1
 c0.nic.xn--kput3i.  	172800	IN	A	65.22.218.1
 c0.nic.xn--kput3i.  	172800	IN	AAAA	2a01:8840:d4::1
-xn--l1acc.          	86400	IN	NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--l1acc.          	172800	IN	NS	ns1.idn.mn.
 xn--l1acc.          	172800	IN	NS	ns2.idn.mn.
 xn--l1acc.          	172800	IN	NS	ns3.idn.mn.
 xn--l1acc.          	86400	IN	DS	45112 5 1 1F4351261342FC31DAA8D5E4F1D4FBF6EE0D9857
 xn--l1acc.          	86400	IN	DS	45112 5 2 1CBBA9081B31B12FA98F5B7FEE95751BD16676E41A2ABC0B25BD0C0031474492
+xn--l1acc.          	86400	IN	NSEC	xn--lgbbat1ad8j. NS DS RRSIG NSEC
 xn--lgbbat1ad8j.    	172800	IN	NS	idn1.nic.dz.
 xn--lgbbat1ad8j.    	172800	IN	NS	idn2.nic.dz.
 xn--lgbbat1ad8j.    	86400	IN	NSEC	xn--mgb9awbf. NS RRSIG NSEC
@@ -18798,13 +18797,13 @@ xn--mgbgu82a.       	172800	IN	NS	c0.in.afilias-nst.in.
 xn--mgbgu82a.       	86400	IN	DS	61068 7 1 9255C887B50011ECF2268CD4EE01A668F996AEB9
 xn--mgbgu82a.       	86400	IN	DS	61068 7 2 E108B97A0E200A95DD8208233C1F46C709EC4B0432D29B8C11E85E595667E082
 xn--mgbgu82a.       	86400	IN	NSEC	xn--mgbi4ecexp. NS DS RRSIG NSEC
-xn--mgbi4ecexp.     	86400	IN	NSEC	xn--mgbpl2fh. NS DS RRSIG NSEC
 xn--mgbi4ecexp.     	172800	IN	NS	a.nic.xn--mgbi4ecexp.
 xn--mgbi4ecexp.     	172800	IN	NS	b.nic.xn--mgbi4ecexp.
 xn--mgbi4ecexp.     	172800	IN	NS	c.nic.xn--mgbi4ecexp.
 xn--mgbi4ecexp.     	172800	IN	NS	d.nic.xn--mgbi4ecexp.
 xn--mgbi4ecexp.     	86400	IN	DS	4660 8 1 E697EAEEBB45B581F8CDE80905C51762214C5FCB
 xn--mgbi4ecexp.     	86400	IN	DS	4660 8 2 8A17731680953E982843D840AC7DFBBE29A313D1BC6263F05056B314724441BB
+xn--mgbi4ecexp.     	86400	IN	NSEC	xn--mgbpl2fh. NS DS RRSIG NSEC
 a.nic.xn--mgbi4ecexp.	172800	IN	A	37.209.192.9
 a.nic.xn--mgbi4ecexp.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.xn--mgbi4ecexp.	172800	IN	A	37.209.194.9
@@ -18889,8 +18888,8 @@ xn--ngbe9e0a.       	172800	IN	NS	d.nic.xn--ngbe9e0a.
 xn--ngbe9e0a.       	86400	IN	DS	10552 8 1 C5F1478252DC3D25E585A8D43AD460C0E8F86863
 xn--ngbe9e0a.       	86400	IN	DS	10552 8 2 B4B742442C6B66D321259FCD7608462A75F2A7EA70AF4E42A6CAD0430DD98D51
 xn--ngbe9e0a.       	86400	IN	NSEC	xn--ngbrx. NS DS RRSIG NSEC
-a.nic.xn--ngbe9e0a. 	172800	IN	A	194.169.218.22
 a.nic.xn--ngbe9e0a. 	172800	IN	AAAA	2001:67c:13cc::1:22
+a.nic.xn--ngbe9e0a. 	172800	IN	A	194.169.218.22
 b.nic.xn--ngbe9e0a. 	172800	IN	A	185.24.64.22
 b.nic.xn--ngbe9e0a. 	172800	IN	AAAA	2a04:2b00:13cc::1:22
 c.nic.xn--ngbe9e0a. 	172800	IN	A	212.18.248.22
@@ -19141,13 +19140,13 @@ xn--tckwe.          	172800	IN	NS	ac3.nstld.com.
 xn--tckwe.          	172800	IN	NS	ac4.nstld.com.
 xn--tckwe.          	86400	IN	DS	35520 8 2 131328BFF91843A53643BF73535A6ACB5EF32A916A23E0A7AB54794C2227F45D
 xn--tckwe.          	86400	IN	NSEC	xn--tiq49xqyj. NS DS RRSIG NSEC
-xn--tiq49xqyj.      	86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
 xn--tiq49xqyj.      	172800	IN	NS	a.nic.xn--tiq49xqyj.
 xn--tiq49xqyj.      	172800	IN	NS	b.nic.xn--tiq49xqyj.
 xn--tiq49xqyj.      	172800	IN	NS	c.nic.xn--tiq49xqyj.
 xn--tiq49xqyj.      	172800	IN	NS	d.nic.xn--tiq49xqyj.
 xn--tiq49xqyj.      	86400	IN	DS	62137 8 1 AB5628608304FD91DC0208AE700BC5963335E2DB
 xn--tiq49xqyj.      	86400	IN	DS	62137 8 2 9ED91B8EC166AF53F2554DB51FA05CE0BC2C1E9D51E7D7937FF438900FCA5CF1
+xn--tiq49xqyj.      	86400	IN	NSEC	xn--unup4y. NS DS RRSIG NSEC
 a.nic.xn--tiq49xqyj.	172800	IN	A	37.209.192.9
 a.nic.xn--tiq49xqyj.	172800	IN	AAAA	2001:dcd:1::9
 b.nic.xn--tiq49xqyj.	172800	IN	A	37.209.194.9
@@ -19311,17 +19310,17 @@ b0.nic.yachts.      	172800	IN	A	65.22.101.1
 b0.nic.yachts.      	172800	IN	AAAA	2a01:8840:63::1
 c0.nic.yachts.      	172800	IN	A	65.22.102.1
 c0.nic.yachts.      	172800	IN	AAAA	2a01:8840:64::1
+yahoo.              	86400	IN	DS	50224 8 1 348AA52BC5E0B10486432188C46906F0F5E3B80C
+yahoo.              	86400	IN	DS	50224 8 2 AA2E909D8280F45C0C0DB470D2D811AAB9DD4125096F22BA5E98921485D1177F
+yahoo.              	86400	IN	DS	55804 8 1 E8F0E0A48C46563C85C5175911346CFF4137DB3C
+yahoo.              	86400	IN	DS	55804 8 2 2396998FFE3A3F69B439E48661038302C1E92CAF71F47A07EDA680AFC66F6CBB
+yahoo.              	86400	IN	NSEC	yamaxun. NS DS RRSIG NSEC
 yahoo.              	172800	IN	NS	ns1.dns.nic.yahoo.
 yahoo.              	172800	IN	NS	ns2.dns.nic.yahoo.
 yahoo.              	172800	IN	NS	ns3.dns.nic.yahoo.
 yahoo.              	172800	IN	NS	ns4.dns.nic.yahoo.
 yahoo.              	172800	IN	NS	ns5.dns.nic.yahoo.
 yahoo.              	172800	IN	NS	ns6.dns.nic.yahoo.
-yahoo.              	86400	IN	DS	50224 8 1 348AA52BC5E0B10486432188C46906F0F5E3B80C
-yahoo.              	86400	IN	DS	50224 8 2 AA2E909D8280F45C0C0DB470D2D811AAB9DD4125096F22BA5E98921485D1177F
-yahoo.              	86400	IN	DS	55804 8 1 E8F0E0A48C46563C85C5175911346CFF4137DB3C
-yahoo.              	86400	IN	DS	55804 8 2 2396998FFE3A3F69B439E48661038302C1E92CAF71F47A07EDA680AFC66F6CBB
-yahoo.              	86400	IN	NSEC	yamaxun. NS DS RRSIG NSEC
 ns1.dns.nic.yahoo.  	172800	IN	A	156.154.144.184
 ns1.dns.nic.yahoo.  	172800	IN	AAAA	2610:a1:1071::b8
 ns2.dns.nic.yahoo.  	172800	IN	A	156.154.145.184
@@ -19484,10 +19483,6 @@ nsza.is.co.za.      	172800	IN	A	196.4.160.27
 ns.coza.net.za.     	172800	IN	A	206.223.136.200
 ns.coza.net.za.     	172800	IN	AAAA	2001:43f8:30::200
 ns1.coza.net.za.    	172800	IN	A	66.135.62.20
-zappos.             	86400	IN	DS	13144 8 1 E7BAE50BE363D99F4A75B6C77CBF2F6DA5E67810
-zappos.             	86400	IN	DS	13144 8 2 9848D2ED4CA1C2D399D07E4305B83CB3CFF7FBE397314F6732648708AB06589D
-zappos.             	86400	IN	DS	23116 8 1 F8E7E1FDFDAF515FFE04BF6B101F7A88740DEA27
-zappos.             	86400	IN	DS	23116 8 2 649BE84611E0A28EEB643A6A76536B41BB839AF06033772C2011CCBCF567A291
 zappos.             	86400	IN	NSEC	zara. NS DS RRSIG NSEC
 zappos.             	172800	IN	NS	ns1.dns.nic.zappos.
 zappos.             	172800	IN	NS	ns2.dns.nic.zappos.
@@ -19495,6 +19490,10 @@ zappos.             	172800	IN	NS	ns3.dns.nic.zappos.
 zappos.             	172800	IN	NS	ns4.dns.nic.zappos.
 zappos.             	172800	IN	NS	ns5.dns.nic.zappos.
 zappos.             	172800	IN	NS	ns6.dns.nic.zappos.
+zappos.             	86400	IN	DS	13144 8 1 E7BAE50BE363D99F4A75B6C77CBF2F6DA5E67810
+zappos.             	86400	IN	DS	13144 8 2 9848D2ED4CA1C2D399D07E4305B83CB3CFF7FBE397314F6732648708AB06589D
+zappos.             	86400	IN	DS	23116 8 1 F8E7E1FDFDAF515FFE04BF6B101F7A88740DEA27
+zappos.             	86400	IN	DS	23116 8 2 649BE84611E0A28EEB643A6A76536B41BB839AF06033772C2011CCBCF567A291
 ns1.dns.nic.zappos. 	172800	IN	A	156.154.144.187
 ns1.dns.nic.zappos. 	172800	IN	AAAA	2610:a1:1071::bb
 ns2.dns.nic.zappos. 	172800	IN	A	156.154.145.187
@@ -19575,12 +19574,12 @@ ns5.dns.nic.zippo.  	172800	IN	A	156.154.157.189
 ns5.dns.nic.zippo.  	172800	IN	AAAA	2610:a1:1075::bd
 ns6.dns.nic.zippo.  	172800	IN	A	156.154.158.189
 ns6.dns.nic.zippo.  	172800	IN	AAAA	2610:a1:1076::bd
-zm.                 	86400	IN	NSEC	zone. NS DS RRSIG NSEC
 zm.                 	172800	IN	NS	ns1.zamnet.zm.
 zm.                 	172800	IN	NS	ns2.zamnet.zm.
 zm.                 	172800	IN	NS	pch.nic.zm.
 zm.                 	172800	IN	NS	ns-zm.afrinic.net.
 zm.                 	86400	IN	DS	32227 8 2 160541488376C942E1B0012F4B33094727C60CE321976A18FBD097ADA469F764
+zm.                 	86400	IN	NSEC	zone. NS DS RRSIG NSEC
 pch.nic.zm.         	172800	IN	A	204.61.216.73
 pch.nic.zm.         	172800	IN	AAAA	2001:500:14:6073:ad::1
 ns1.zamnet.zm.      	172800	IN	A	196.46.192.26
@@ -19605,4 +19604,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030100 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030101 1800 900 604800 86400
