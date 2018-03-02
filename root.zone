@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030201 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030202 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -14751,16 +14751,16 @@ dns.intelcom.sm.    	172800	IN	A	194.183.64.11
 dns.omniway.sm.     	172800	IN	A	194.183.64.10
 ns3.telecomitalia.sm.	172800	IN	A	194.0.27.12
 ns3.telecomitalia.sm.	172800	IN	AAAA	2001:678:28:0:c2:b7:40:12
+smart.              	172800	IN	NS	a.nic.smart.
+smart.              	172800	IN	NS	b.nic.smart.
 smart.              	172800	IN	NS	c.nic.smart.
 smart.              	172800	IN	NS	d.nic.smart.
-smart.              	172800	IN	NS	apdns3.nic.smart.
-smart.              	172800	IN	NS	apdns4.nic.smart.
 smart.              	86400	IN	DS	10241 8 2 1FC272FD0BB0D9AE922348C5C63F401A9E1FBA71C8CB452AF5DF5E4E005237CF
 smart.              	86400	IN	NSEC	smile. NS DS RRSIG NSEC
-apdns3.nic.smart.   	172800	IN	A	194.169.218.70
-apdns3.nic.smart.   	172800	IN	AAAA	2001:67c:13cc::1:70
-apdns4.nic.smart.   	172800	IN	A	185.24.64.70
-apdns4.nic.smart.   	172800	IN	AAAA	2a04:2b00:13cc::1:70
+a.nic.smart.        	172800	IN	A	194.169.218.70
+a.nic.smart.        	172800	IN	AAAA	2001:67c:13cc::1:70
+b.nic.smart.        	172800	IN	A	185.24.64.70
+b.nic.smart.        	172800	IN	AAAA	2a04:2b00:13cc::1:70
 c.nic.smart.        	172800	IN	A	212.18.248.70
 c.nic.smart.        	172800	IN	AAAA	2a04:2b00:13ee::70
 d.nic.smart.        	172800	IN	A	212.18.249.70
@@ -19600,4 +19600,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030201 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030202 1800 900 604800 86400
