@@ -1,4 +1,4 @@
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030801 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030802 1800 900 604800 86400
 .                   	518400	IN	NS	a.root-servers.net.
 .                   	518400	IN	NS	b.root-servers.net.
 .                   	518400	IN	NS	c.root-servers.net.
@@ -6239,7 +6239,7 @@ gbiz.               	86400	IN	NSEC	gd. NS DS RRSIG NSEC
 gd.                 	172800	IN	NS	a.gd.dyntld.net.
 gd.                 	172800	IN	NS	b.gd.dyntld.net.
 gd.                 	172800	IN	NS	gd-ns.anycast.pch.net.
-gd.                 	86400	IN	DS	52907 8 2 03D3FDF79B36A910ABF0A14A7132B2B5D5960AB0130155856001E56882E8FFCA
+gd.                 	86400	IN	DS	46690 8 2 B7B59DD115BBF1D952C3A834B1C1561B8AA0EFE0585F0BB89DC69060F628FE4D
 gd.                 	86400	IN	NSEC	gdn. NS DS RRSIG NSEC
 gdn.                	172800	IN	NS	ns1.nic.gdn.
 gdn.                	172800	IN	NS	ns3.nic.gdn.
@@ -19595,4 +19595,4 @@ zw.                 	172800	IN	NS	ns2.liquidtelecom.net.
 zw.                 	86400	IN	NSEC	. NS RRSIG NSEC
 ns1.telone.co.zw.   	172800	IN	A	194.133.122.47
 ns2.telone.co.zw.   	172800	IN	A	194.133.122.42
-.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030801 1800 900 604800 86400
+.                   	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018030802 1800 900 604800 86400
